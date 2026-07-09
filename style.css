@@ -113,7 +113,7 @@ header {
 
 .hero-content h1 {
 
-    font-size: 45px;
+    font-size: 40px;
     color: #0b3d91;
 
     margin-bottom: 10px;
@@ -161,7 +161,7 @@ header {
 
 .hero-content h3 {
 
-    font-size: 24px;
+    font-size: 20px;
 
     color: #0b3d91;
 
@@ -287,9 +287,9 @@ header {
 
 .section h2 {
 
-    text-align: center;
+    text-align: left;
 
-    font-size: 35px;
+    font-size: 18px;
 
     color: #0b3d91;
 
