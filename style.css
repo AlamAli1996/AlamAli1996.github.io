@@ -309,3 +309,21 @@ header {
     margin-bottom: 20px;
 
 }
+/* ===================== RESEARCH LIST ===================== */
+
+.research-list {
+
+    margin-top: 20px;
+
+}
+
+
+.research-list li {
+
+    font-size: 18px;
+
+    margin-bottom: 15px;
+
+    line-height: 1.6;
+
+}
