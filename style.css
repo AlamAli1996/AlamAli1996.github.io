@@ -1,1 +1,204 @@
+/* ===========================
+   Dr. Alam Ali Academic Homepage
+   Part 1
+   =========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.7;
+    background:#ffffff;
+    color:#333333;
+}
+
+/* ---------------------------
+   Navigation Bar
+----------------------------*/
+
+header{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#0b3d91;
+    z-index:1000;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.navbar{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 30px;
+}
+
+.logo{
+    color:#ffffff;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:17px;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ffd54f;
+}
+
+/* ---------------------------
+   Hero Section
+----------------------------*/
+
+.hero{
+    max-width:1200px;
+    margin:auto;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:120px 30px 80px;
+}
+
+.hero-text{
+    flex:1;
+    padding-right:60px;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:#0b3d91;
+    margin-bottom:15px;
+}
+
+.hero-text h2{
+    font-size:28px;
+    color:#666666;
+    margin-bottom:25px;
+    font-weight:normal;
+}
+
+.hero-text p{
+    font-size:18px;
+    margin-bottom:18px;
+}
+
+/* ---------------------------
+   Buttons
+----------------------------*/
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:14px 28px;
+
+    background:#0b3d91;
+    color:#ffffff;
+
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.3s;
+    font-size:17px;
+}
+
+.btn:hover{
+    background:#072c6c;
+}
+
+/* ---------------------------
+   Profile Image
+----------------------------*/
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+
+    width:330px;
+    height:330px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid #0b3d91;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.20);
+}
+
+/* ---------------------------
+   General Sections
+----------------------------*/
+
+section{
+
+    padding:90px 30px;
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+section h2{
+
+    font-size:34px;
+
+    color:#0b3d91;
+
+    margin-bottom:25px;
+
+    border-bottom:3px solid #0b3d91;
+
+    display:inline-block;
+
+    padding-bottom:8px;
+}
+
+section p{
+
+    font-size:18px;
+
+    text-align:justify;
+}
+
+/* ---------------------------
+   Footer
+----------------------------*/
+
+footer{
+
+    background:#0b3d91;
+
+    color:#ffffff;
+
+    text-align:center;
+
+    padding:30px;
+}
