@@ -113,7 +113,7 @@ header {
 
 .hero-content h1 {
 
-    font-size: 40px;
+    font-size: 18px;
     color: #0b3d91;
 
     margin-bottom: 10px;
@@ -124,7 +124,7 @@ header {
 
 .hero-content h2 {
 
-    font-size: 25px;
+    font-size: 18px;
 
     color: #555;
 
@@ -136,7 +136,7 @@ header {
 
 .department {
 
-    font-size: 17px;
+    font-size: 18px;
 
     margin-bottom: 20px;
 
@@ -161,7 +161,7 @@ header {
 
 .hero-content h3 {
 
-    font-size: 20px;
+    font-size: 18px;
 
     color: #0b3d91;
 
@@ -313,7 +313,7 @@ header {
 
 .research-list {
 
-    margin-top: 20px;
+    margin-top: 18px;
 
 }
 
