@@ -473,3 +473,43 @@ footer p{
 .contact-info a:hover{
     text-decoration:underline;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-image{
+    flex: 0 0 320px;
+    text-align: center;
+}
+
+.profile-photo{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0056b3;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#0056b3;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.btn:hover{
+    background:#003d80;
+}
