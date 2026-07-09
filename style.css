@@ -410,3 +410,17 @@ footer p{
 
     font-size:16px;
 }
+
+
+/* Research List */
+
+.research-list{
+    margin-top:20px;
+    padding-left:25px;
+}
+
+.research-list li{
+    font-size:18px;
+    margin-bottom:12px;
+    line-height:1.8;
+}
