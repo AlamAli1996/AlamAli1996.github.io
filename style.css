@@ -100,9 +100,9 @@ header {
 
     border-radius: 50%;
 
-    object-fit: contain;
+    object-fit: cover;
 
-    background: white;
+    object-position: center top;
 
     border: 5px solid #0b3d91;
 
@@ -173,7 +173,7 @@ header {
 
 .hero-content h3 {
 
-    font-size: 18px;
+    font-size: 20px;
 
     color: #0b3d91;
 
