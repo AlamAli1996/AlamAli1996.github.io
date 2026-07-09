@@ -327,3 +327,30 @@ header {
     line-height: 1.6;
 
 }
+/* ===================== GOOGLE SCHOLAR LINK ===================== */
+
+.scholar-link {
+
+    margin-top: 30px;
+
+    font-size: 17px;
+
+}
+
+
+.scholar-link a {
+
+    color: #0b3d91;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+.scholar-link a:hover {
+
+    text-decoration: underline;
+
+}
