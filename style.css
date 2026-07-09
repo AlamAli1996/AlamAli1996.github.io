@@ -64,15 +64,17 @@ header {
 .hero {
 
     display: flex;
-    align-items: center;
+
+    align-items: flex-start;
+
     justify-content: center;
-    gap: 50px;
 
-    padding: 70px 10%;
+    gap: 60px;
 
-    min-height: 90vh;
+    padding: 60px 10%;
 
     background: #f5f8fc;
+
 }
 
 
@@ -81,8 +83,11 @@ header {
 
 .hero-image {
 
-    flex: 1;
+    flex: 0 0 280px;
+
     text-align: center;
+
+    margin-top: 5px;
 
 }
 
@@ -106,25 +111,28 @@ header {
 
 .hero-content {
 
-    flex: 2;
+    flex: 1.8;
 
 }
-
 
 .hero-content h1 {
 
-    font-size: 18px;
+    font-size: 20px;
+
+    font-weight: 500;
+
     color: #0b3d91;
 
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
 }
-
 
 
 .hero-content h2 {
 
-    font-size: 18px;
+    font-size: 20px;
+
+    font-weight: 500;
 
     color: #555;
 
@@ -133,27 +141,28 @@ header {
 }
 
 
-
 .department {
 
-    font-size: 18px;
+    font-size: 17px;
+
+    line-height: 1.7;
 
     margin-bottom: 20px;
 
 }
 
 
-
 .intro {
 
-    font-size: 18px;
+    font-size: 17px;
+
+    line-height: 1.8;
 
     text-align: justify;
 
     margin-bottom: 25px;
 
 }
-
 
 
 /* ===================== RESEARCH INTEREST LIST ===================== */
