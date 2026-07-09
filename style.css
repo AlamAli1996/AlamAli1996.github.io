@@ -274,3 +274,38 @@ header {
     }
 
 }
+/* ===================== COMMON SECTION STYLE ===================== */
+
+.section {
+
+    padding: 60px 10%;
+
+    background: white;
+
+}
+
+
+.section h2 {
+
+    text-align: center;
+
+    font-size: 35px;
+
+    color: #0b3d91;
+
+    margin-bottom: 30px;
+
+}
+
+
+.section p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    margin-bottom: 20px;
+
+}
