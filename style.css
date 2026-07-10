@@ -437,3 +437,16 @@ header {
     text-decoration: underline;
 
 }
+
+.awards-list {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 17px;
+    color: #333;
+}
+
+.awards-list li {
+    margin-bottom: 12px;
+}
