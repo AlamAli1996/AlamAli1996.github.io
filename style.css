@@ -283,8 +283,8 @@ header {
 /* ===================== COMMON SECTION STYLE ===================== */
 
 ..section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     padding-left: 10%;
     padding-right: 10%;
     background: white;
