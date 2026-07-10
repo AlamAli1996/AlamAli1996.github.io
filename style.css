@@ -450,3 +450,34 @@ header {
     margin-bottom: 14px;
     line-height: 1.8;
 }
+/* ===================== PUBLICATIONS ===================== */
+
+.publication-list {
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.publication-list li {
+    text-align: left;
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+/* ===================== AWARDS ===================== */
+
+#awards {
+    text-align: left;
+}
+
+.awards-list {
+    width: 100%;
+    padding-left: 30px;
+    margin: 20px 0;
+    list-style-position: outside;
+}
+
+.awards-list li {
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
