@@ -283,24 +283,15 @@ header {
 /* ===================== COMMON SECTION STYLE ===================== */
 
 .section {
-
     padding: 35px 10%;
-
     background: white;
-
 }
 
-
 .section h2 {
-
     text-align: left;
-
     font-size: 26px;
-
     color: #0b3d91;
-
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
 }
 
 
