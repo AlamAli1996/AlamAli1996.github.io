@@ -63,21 +63,15 @@ header {
 /* ===================== HOME / HERO SECTION ===================== */
 
 .hero {
-
     display: flex;
-
     align-items: flex-start;
-
     justify-content: center;
-
-    gap: 60px;
-
-    padding: 60px 10%;
-
+    gap: 40px;
+    padding: 60px 8%;
     background: #f5f8fc;
-
+    max-width: 1400px;
+    margin: auto;
 }
-
 /* ===================== PROFILE IMAGE ===================== */
 
 .hero-image {
