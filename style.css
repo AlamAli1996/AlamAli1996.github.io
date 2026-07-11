@@ -66,11 +66,11 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 40px;
-    padding: 60px 8%;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 40px;
     background: #f5f8fc;
-    max-width: 1400px;
-    margin: auto;
 }
 /* ===================== PROFILE IMAGE ===================== */
 
@@ -278,10 +278,9 @@ header {
 /* ===================== COMMON SECTION STYLE ===================== */
 
 .section {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 40px;
     background: white;
 }
 
